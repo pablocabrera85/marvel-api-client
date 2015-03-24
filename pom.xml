@@ -6,7 +6,7 @@
 
     <groupId>com.pcab</groupId>
     <artifactId>marvel-api-client</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <build>
@@ -107,4 +107,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <scm>
+        <connection>scm:git:git://github.com:pablocabrera85/marvel-api-client.git
+        </connection>
+        <developerConnection>
+            scm:git:git@github.com:pablocabrera85/marvel-api-client.git
+        </developerConnection>
+        <url>http://github.com/pablocabrera85/marvel-api-client</url>
+    </scm>
 </project>
