@@ -1,0 +1,19 @@
+= Marvel API Client
+
+This is a simple Java Client to consume Marvel API from a server side application.
+
+Full documentation can be found at http://developer.marvel.com[Marvel Developer Portal].
+
+To use it in your project just add the dependency:
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.pcab</groupId>
+    <artifactId>marvel-api-client</artifactId>
+    <version>1.0.0</version>
+</dependency>
+----
+
+If you want to build this project, and run the tests, you need to have a https://developer.marvel.com/account[developer account] and your public and private key.
+
