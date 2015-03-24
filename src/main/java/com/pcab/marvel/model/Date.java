@@ -1,7 +1,7 @@
 package com.pcab.marvel.model;
 
 /**
- * Created by Mulesoft.
+ * Date associated to a specific type.
  */
 public class Date extends BaseObject {
 

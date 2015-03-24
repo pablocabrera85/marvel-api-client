@@ -63,7 +63,7 @@ public class Client implements IMarvelAPI {
         }
         return new Client(publicKey,privateKey);
     }
-    
+
     @Override
     public Result<Comic> getComic(Integer comicId) {
         Response response = executeRequest(COMICS, comicId.toString());

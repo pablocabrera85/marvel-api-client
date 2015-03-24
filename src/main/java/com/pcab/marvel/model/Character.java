@@ -1,7 +1,7 @@
 package com.pcab.marvel.model;
 
 /**
- * Created by Mulesoft.
+ * Character resource representation.
  */
 public class Character extends BaseEntity{
 

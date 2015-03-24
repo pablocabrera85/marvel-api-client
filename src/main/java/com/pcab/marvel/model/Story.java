@@ -1,7 +1,7 @@
 package com.pcab.marvel.model;
 
 /**
- * Created by Mulesoft.
+ * Story resource representation.
  */
 public class Story extends BaseEntity {
 

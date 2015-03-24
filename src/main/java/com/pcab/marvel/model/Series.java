@@ -1,7 +1,7 @@
 package com.pcab.marvel.model;
 
 /**
- * Created by Mulesoft.
+ * Series resource representation.
  */
 public class Series extends BaseEntity{
 

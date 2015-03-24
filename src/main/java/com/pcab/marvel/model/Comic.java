@@ -3,7 +3,7 @@ package com.pcab.marvel.model;
 import java.util.List;
 
 /**
- * Created by Mulesoft.
+ * Comic resource representation.
  */
 public class Comic extends BaseEntity{
 

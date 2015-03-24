@@ -3,7 +3,7 @@ package com.pcab.marvel.model;
 import java.util.Date;
 
 /**
- * Created by Mulesoft.
+ * Event resource representation.
  */
 public class Event extends BaseEntity {
 

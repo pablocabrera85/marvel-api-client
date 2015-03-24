@@ -1,9 +1,13 @@
 package com.pcab.marvel.model;
 
 /**
- * Created by Mulesoft.
+ * Price description
  */
 public class Price extends BaseObject {
+
+    /**
+     * The price (all prices in USD).
+     */
     private Double price;
 
     public Double getPrice() {

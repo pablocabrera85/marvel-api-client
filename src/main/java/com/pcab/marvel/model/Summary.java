@@ -1,10 +1,18 @@
 package com.pcab.marvel.model;
 
 /**
- * Created by Mulesoft.
+ * Summary
  */
 public class Summary {
+
+    /**
+     * The path to the individual resource,
+     */
     private String resourceURI;
+
+    /**
+     * The name associated to the resourceURI.
+     */
     private String name;
 
     public String getResourceURI() {

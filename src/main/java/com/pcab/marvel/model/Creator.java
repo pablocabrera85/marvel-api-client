@@ -1,7 +1,7 @@
 package com.pcab.marvel.model;
 
 /**
- * Created by Mulesoft.
+ * Creator resource representation.
  */
 public class Creator extends BaseEntity {
 
