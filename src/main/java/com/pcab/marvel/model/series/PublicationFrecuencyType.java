@@ -2,8 +2,6 @@ package com.pcab.marvel.model.series;
 
 /**
  * This enum represents all the possible publications frequencies.
- *
- * @since 1.0.0
  */
 public enum PublicationFrecuencyType {
     COLLECTION("collection"),

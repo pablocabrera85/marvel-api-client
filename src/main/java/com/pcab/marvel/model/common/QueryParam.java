@@ -3,7 +3,6 @@ package com.pcab.marvel.model.common;
 /**
  * This class is just a helper class to get the supported query parameters.
  * <p>In order to get the string value just use the {@link com.pcab.marvel.model.common.QueryParam#getName} method.</p>
- * @since 1.0.0
  */
 public enum QueryParam {
     NAME("name"),

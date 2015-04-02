@@ -47,8 +47,8 @@ public class Client implements IMarvelAPI {
 
     private final Gson gson;
 
-    private final String publicKey;
-    private final String privateKey;
+    private final CharSequence publicKey;
+    private final CharSequence privateKey;
     private URLCodec encoder;
 
     /**
@@ -338,9 +338,15 @@ public class Client implements IMarvelAPI {
         return response;
     }
 
+    /**
+     * Builds a basic request the specified resource and adds the query params. Also this
+     * @param resource
+     * @param queryParams
+     * @return
+     */
     private WebTarget buildBaseRequest(String resource, Map<String, Object> queryParams) {
         Long currentTime = DateTimeUtils.currentTimeMillis();
-        byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + getPrivateKey() + getPublicKey());
+        byte[] hash = org.apache.commons.codec.digest.DigestUtils.md5(currentTime + getPrivateKey().toString() + getPublicKey().toString());
         final String result = new String(Hex.encodeHex(hash));
         WebTarget baseRequest = baseTarget.path(version).
                 path("public").
@@ -390,11 +396,11 @@ public class Client implements IMarvelAPI {
         return gson.fromJson(entity, token);
     }
 
-    public String getPublicKey() {
+    public CharSequence getPublicKey() {
         return publicKey;
     }
 
-    public String getPrivateKey() {
+    public CharSequence getPrivateKey() {
         return privateKey;
     }
 

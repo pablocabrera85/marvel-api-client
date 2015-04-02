@@ -2,8 +2,6 @@ package com.pcab.marvel.model.common;
 
 /**
  * This enum just contains all the supported Order By clauses, check each request documentation to see the supported ones.
- *
- * @since 1.0.0
  */
 public enum OrderBy {
     ID("id"),

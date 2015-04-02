@@ -2,8 +2,6 @@ package com.pcab.marvel.model.comic;
 
 /**
  * This enum represents all the possible comic formats supported.
- *
- * @since 1.0.0
  */
 public enum Format {
     COMIC("comic"),

@@ -2,8 +2,6 @@ package com.pcab.marvel.model.common;
 
 /**
  * This enum represents all the Date options supported for query parameters.
- *
- * @since 1.0.0
  */
 public enum DateDescriptor {
     LAST_WEEK("lastWeek"),
